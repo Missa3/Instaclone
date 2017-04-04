@@ -3,7 +3,9 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+span{
+  color: #93a8bd;
+}
 header {
     background: #fafafa;
     border-bottom: 1px solid rgba(0, 0, 0, .0975);
@@ -21,18 +23,21 @@ header a {
     font-size: 25px;
     width: 25%;
 }
-
+hr{
+  margin: 0 auto;
+}
 header a>.fa-heart-o:hover {
     color: #ed4956;
 }
 
 .container {
-    margin: 60px auto 0 auto;
+    margin: 60px auto 60px auto;
     border-radius: .3%;
     max-width: 600px;
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+    padding-bottom: 5px;
 }
 
 .user {
@@ -40,7 +45,7 @@ header a>.fa-heart-o:hover {
     box-sizing: border-box;
     height: 64px;
     line-height: 30px;
-    border: .2px solid #e1e1e1;
+border: .2px solid #e1e1e1;
     background: white;
 }
 
@@ -84,6 +89,31 @@ header a>.fa-heart-o:hover {
     height: 100%;
     margin: 0;
 }
-.comment {
-  width: 600px;
+.footer {
+padding: 16px;
+  box-sizing: border-box;
+  border: .2px solid #e1e1e1;
+}
+.likes{
+  font-weight: bold;
+}
+.allComments{
+  color: #b9bab8;
+}
+.addComments{
+  color: red;
+  width: 100%;
+  height: 25px;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+.addComments input{
+  border: none;
+  width: 90%;
+  box-sizing: border-box;
+  padding-left: 5px;
+  color: #262626;
+}
+.addComments input:focus{
+outline: none;
 }
