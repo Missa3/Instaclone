@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style/home.css">
     <meta charset="UTF-8">
@@ -12,19 +14,21 @@
 </head>
 
 <body>
-    <header>
+
+    <div class="header">
         <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-    </header>
+    </div class="header">
 
     <div class="container">
         <div class="user">
             <div class="userPic">
+                <img src="https://i.stack.imgur.com/Lkn5a.png?s=328&g=1" alt="">
             </div>
             <div class="userName">
-                UserName
+                john_doe44
             </div>
             <div class="time">
                 3h
@@ -32,6 +36,57 @@
         </div>
 
         <div class="pic">
+            <div class="pheart">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+
+            <img src="http://cityhub.movoto.com/1475567287640_16-best-bars-in-fresno-2016--fea.JPG" alt="Fresno">
+        </div>
+        <div class="footer">
+            <div class="likes">
+                67 likes
+            </div>
+
+            <div class="description">
+                <p><strong>userName</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <span>#incididunt </span><span>#tempor </span> <span>#amet</span></p>
+            </div>
+            <div class="comments">
+                <div class="allComments">
+                    view all 475,938,593 comments
+                </div>
+                <p><strong>dolor_3  </strong><span>@Lorem_</span>
+                    <p>
+                        <p><strong>sit_ipsun3  </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <p><strong>_elite </strong><span>@acmonset </span> Amet consectetur adipisicing elit</p>
+            </div>
+            <hr>
+            <div class="addComments">
+                <i class="cheart fa fa-heart-o" aria-hidden="true"></i>
+                <input type="text" placeholder=" Add a comment...">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="user">
+            <div class="userPic">
+                <img src="https://www.hit4hit.org/img/login/user-icon-6.png" alt="">
+            </div>
+            <div class="userName">
+              lorem
+            </div>
+            <div class="time">
+                1w
+            </div>
+        </div>
+
+        <div class="pic">
+            <div class="pheart">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+
             <img src="http://unsplash.com/photos/Z6v4dSNayVg/download?force=true" alt="Ocean">
         </div>
         <div class="footer">
@@ -46,19 +101,22 @@
                 <div class="allComments">
                     view all 475,938,593 comments
                 </div>
-                <p><strong>dolor_3  </strong><span>@Lorem_</span><p>
-                <p><strong>sit_ipsun3  </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                <p><strong>_elite </strong><span>@acmonset </span> Amet consectetur adipisicing elit</p>
+                <p><strong>dolor_3  </strong><span>@Lorem_</span>
+                    <p>
+                        <p><strong>sit_ipsun3  </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <p><strong>_elite </strong><span>@acmonset </span> Amet consectetur adipisicing elit</p>
             </div>
             <hr>
             <div class="addComments">
-              <i class="fa fa-heart" aria-hidden="true"></i>
-                 <input type="text" placeholder=" Add a comment...">
-                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                <i class="cheart fa fa-heart-o" aria-hidden="true"></i>
+                <input type="text" placeholder=" Add a comment...">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
             </div>
 
         </div>
     </div>
+    <script type="text/javascript" src="scripts/home.js">
+    </script>
 </body>
 
 </html>
