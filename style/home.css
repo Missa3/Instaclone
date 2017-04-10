@@ -11,7 +11,7 @@ span {
 }
 
 .header {
-  display: block;
+    display: block;
     background: #fafafa;
     border-bottom: 1px solid rgba(0, 0, 0, .0975);
     width: 100%;
@@ -47,7 +47,6 @@ hr {
     padding-bottom: 5px;
 }
 
-
 .user {
     padding: 14px 20px;
     box-sizing: border-box;
@@ -55,14 +54,15 @@ hr {
     line-height: 30px;
     border: .2px solid #e1e1e1;
     background: white;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .user div {
     display: inline-block;
 }
 
-.user .userPic,.userPic img{
+.user .userPic, .userPic img {
     width: 30px;
     height: 30px;
     background: blue;
@@ -70,8 +70,6 @@ hr {
     position: relative;
     float: left;
 }
-
-
 
 .user .userName {
     color: #262626;
@@ -87,29 +85,32 @@ hr {
 }
 
 .pic {
-    width: 600px;
-    height: 600px;
     box-sizing: border-box;
-    border-left: .2px solid #e1e1e1;
-    border-right: .2px solid #e1e1e1;
-}
-.pic div{
-  /*position: absolute;*/
+    max-width: 600px;
+    max-height: 553.875px;
+    height: 92.3125vw;
+    /*border-left: .2px solid #e1e1e1;
+    border-right: .2px solid #e1e1e1;*/
 }
 
 .pic img {
+    box-sizing: border-box;
+    max-width: 600px;
+    max-height: 553.875px;
     width: 100%;
-    height: 100%;
+    height: 92.3125vw;
     margin: 0;
     position: relative;
-
+    border-left: .2px solid #e1e1e1;
+    border-right: .2px solid #e1e1e1;
 }
 
 .footer {
     padding: 16px;
     box-sizing: border-box;
     border: .2px solid #e1e1e1;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .likes {
@@ -120,7 +121,7 @@ hr {
     color: #b9bab8;
 }
 
-.addComments{
+.addComments {
     width: 100%;
     height: 25px;
     font-size: 24px;
@@ -132,17 +133,19 @@ hr {
     box-sizing: border-box;
     padding-left: 5px;
     color: #262626;
+    background: none;
 }
-.pic .pheart{
-  display: none;
-  font-size: 150px;
-   z-index: 1;
-  text-align: center;
-  width: 600px;
-  margin-top: 200px;
-  position: absolute;
-  color: #ededec;
 
+.pic .pheart {
+    display: none;
+    font-size: 150px;
+    z-index: 1;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 13%;
+    position: absolute;
+    color: #ededec;
 }
 
 .addComments input:focus {
@@ -152,6 +155,7 @@ hr {
 .fa-ellipsis-h {
     float: right;
 }
-.footer .fa-heart{
-  color: #ed4956;
+
+.footer .fa-heart {
+    color: #ed4956;
 }
